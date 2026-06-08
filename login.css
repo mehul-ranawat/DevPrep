@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Parent{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #2c1a1a, #3a2222, #4a2b2b);
+    background-size: cover;
+    background-position: center;
+}
+
+.mainParent{
+    height: 500px;
+    width: 50%;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 15px;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    left: 380px;
+    padding: 10px;
+}
+
+.loginHeading{
+    text-align: center;
+    color: #ff6b8b;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.login form{
+    height: 400px;
+    width: 90%;
+    position: relative;
+    padding: 30px;
+    left: 30px;
+    top: 40px;
+}
+
+.login label{
+    font-size: large;
+    position: relative;
+    bottom: 5px;
+    color: #ffb3c4;
+}
+
+.login input{
+    height: 50px;
+    width: 90%;
+    background-color: rgba(255,255,255,0.05);
+    border: 2px solid #ff6b8b;
+    color: white;
+    font-size: larger;
+    padding-left: 10px;
+    outline: none;
+}
+
+.login input:hover{
+    background-color: rgba(255,255,255,0.1);
+}
+
+.login input:focus{
+    border-color: #ff8fa8;
+    /* box-shadow: 0 0 10px rgba(255,107,139,0.5); */
+}
+
+.login button{
+    padding: 10px;
+    width: 100px;
+    position: relative;
+    left: 235px;
+    background: linear-gradient(135deg, #ff6b8b, #ff8fa8);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.login button:hover{
+    background: linear-gradient(135deg, #ff8fa8, #ffb3c4);
+    color: white;
+}
+
+.login .signup{
+    text-align: center;
+    color: white;
+}
+
+.login .signup a{
+    color: #ff8fa8;
+    text-decoration: none;
+}
+
+.login .signup a:hover{
+    color: #ffb3c4;
+}

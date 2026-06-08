@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(
+        135deg,
+        #2c1a1a,
+        #3d2525,
+        #2c1a1a
+    );
+}
+
+.Parent{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.signupBox{
+    /* height: 800px; */
+    width:450px;
+    padding:40px;
+    background:rgba(255,255,255,0.05);
+    backdrop-filter: blur(15px);
+    border:1px solid rgba(255,107,139,0.3);
+    border-radius:20px;
+    text-align:center;
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.4),
+        0 0 20px rgba(255,107,139,0.15);
+}
+
+.signupBox h2{
+    color: #ff6b8b;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+
+
+.inputBox{
+    margin-bottom: 15px;
+}
+
+.signupBox{
+    width: 380px;
+    max-width: 100%;
+    padding: 25px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+    text-align: center;
+}
+.signupBox input{
+    width: 100%;
+    height: 45px;
+    padding: 12px;
+    border: 2px solid #ff6b8b;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.05);
+    color: white;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s ease;
+}
+.signupBox input:hover{
+    background-color: rgba(255,255,255,0.1);
+}
+
+.signupBox input::placeholder{
+    color:#d8b8c0;
+}
+
+.signupBox input:focus{
+    outline:none;
+    border-color:#ff6b8b;
+    /* box-shadow:0 0 12px rgba(255,107,139,0.4); */
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #ff6b8b, #ff8fa8);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-left: 0;
+}
+
+
+.btn:hover{
+    background:#ff4d73;
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(255,107,139,0.4);
+}
+
+.loginLink{
+    margin-top: 15px;
+    font-size: 14px;
+    color: azure;
+}
+
+.loginLink a{
+    color:#9d9a9b;
+    text-decoration:none;
+    font-weight:600;
+    display:block;
+    margin-top:8px;
+    transition:0.3s;
+}
+
+.loginLink a:hover{
+    color:#ff6b8b;
+    text-decoration:underline;
+}
